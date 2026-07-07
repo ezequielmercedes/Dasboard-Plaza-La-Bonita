@@ -1,0 +1,14 @@
+{
+  "name": "la-bonita-server",
+  "version": "1.0.0",
+  "description": "API del Dashboard Empresarial de Distribuidora La Bonita",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

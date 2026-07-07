@@ -1,0 +1,51 @@
+{
+  "empresa": {
+    "nombre": "Distribuidora La Bonita, S.R.L.",
+    "ubicacion": "Villa Mella, Santo Domingo Norte, República Dominicana",
+    "almacenes": 3,
+    "camiones": 12
+  },
+  "ventasSemana": [
+    { "dia": "Lun", "total": 182400 },
+    { "dia": "Mar", "total": 165300 },
+    { "dia": "Mié", "total": 201750 },
+    { "dia": "Jue", "total": 178900 },
+    { "dia": "Vie", "total": 245600 },
+    { "dia": "Sáb", "total": 289100 },
+    { "dia": "Dom", "total": 97800 }
+  ],
+  "ventasPorVendedor": [
+    { "vendedor": "Rosa Mercedes", "meta": 250000, "logrado": 231500 },
+    { "vendedor": "Juan Carlos Peña", "meta": 250000, "logrado": 268900 },
+    { "vendedor": "Elena Ramírez", "meta": 220000, "logrado": 197300 },
+    { "vendedor": "Miguel Ángel Soto", "meta": 220000, "logrado": 224700 },
+    { "vendedor": "Yolanda Féliz", "meta": 200000, "logrado": 156200 }
+  ],
+  "inventario": [
+    { "producto": "Arroz Selecto 25 lb", "categoria": "Alimentos", "stock": 42, "stockMinimo": 60, "unidad": "sacos" },
+    { "producto": "Aceite Vegetal 1 gal", "categoria": "Alimentos", "stock": 310, "stockMinimo": 100, "unidad": "unidades" },
+    { "producto": "Detergente en Polvo 5 kg", "categoria": "Limpieza", "stock": 28, "stockMinimo": 50, "unidad": "unidades" },
+    { "producto": "Jabón de Baño (paq. 3)", "categoria": "Higiene", "stock": 190, "stockMinimo": 80, "unidad": "paquetes" },
+    { "producto": "Habichuelas Rojas 20 lb", "categoria": "Alimentos", "stock": 15, "stockMinimo": 40, "unidad": "sacos" },
+    { "producto": "Papel Higiénico (paq. 12)", "categoria": "Higiene", "stock": 205, "stockMinimo": 90, "unidad": "paquetes" },
+    { "producto": "Cloro 1 gal", "categoria": "Limpieza", "stock": 33, "stockMinimo": 45, "unidad": "unidades" },
+    { "producto": "Azúcar Blanca 25 lb", "categoria": "Alimentos", "stock": 88, "stockMinimo": 60, "unidad": "sacos" }
+  ],
+  "rutas": [
+    { "camion": "Camión 01", "conductor": "Freddy Aquino", "zona": "Villa Mella Centro", "paradasPlanificadas": 18, "paradasCompletadas": 18, "estado": "Completada" },
+    { "camion": "Camión 02", "conductor": "Ramón Cuevas", "zona": "Sabana Perdida", "paradasPlanificadas": 22, "paradasCompletadas": 19, "estado": "En ruta" },
+    { "camion": "Camión 03", "conductor": "Luis Manuel De la Cruz", "zona": "La Victoria", "paradasPlanificadas": 15, "paradasCompletadas": 15, "estado": "Completada" },
+    { "camion": "Camión 04", "conductor": "Pedro Julio Guzmán", "zona": "Guaricano", "paradasPlanificadas": 20, "paradasCompletadas": 12, "estado": "En ruta" },
+    { "camion": "Camión 05", "conductor": "Andy Peralta", "zona": "Pantoja", "paradasPlanificadas": 17, "paradasCompletadas": 5, "estado": "Retrasada" },
+    { "camion": "Camión 06", "conductor": "Wascar Núñez", "zona": "Los Guandules", "paradasPlanificadas": 19, "paradasCompletadas": 19, "estado": "Completada" }
+  ],
+  "cobros": [
+    { "cliente": "Colmado Doña Milagros", "monto": 18500, "diasVencido": 5, "estado": "Vencida" },
+    { "cliente": "Supermercado El Ahorro", "monto": 64200, "diasVencido": 0, "estado": "Al día" },
+    { "cliente": "Colmado Los Hermanos", "monto": 9800, "diasVencido": 32, "estado": "Vencida" },
+    { "cliente": "Pulpería La Esquina", "monto": 4300, "diasVencido": 12, "estado": "Vencida" },
+    { "cliente": "Minimarket Sabana Nueva", "monto": 27600, "diasVencido": 0, "estado": "Al día" },
+    { "cliente": "Colmado San Miguel", "monto": 15200, "diasVencido": 48, "estado": "Vencida" },
+    { "cliente": "Supermercado Núñez", "monto": 51200, "diasVencido": 0, "estado": "Al día" }
+  ]
+}
